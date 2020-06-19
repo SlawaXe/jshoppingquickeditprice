@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>jShoppin Quick edit price</name>
+    <author>SlaXe</author>
+    <creationDate>08.06.20</creationDate>
+    <copyright>Copyright © All rights reserved.</copyright>
+    <license>GNU GPL</license>
+    <authorEmail>mail@saitodelove.ru</authorEmail>
+    <authorUrl>saitodelove.ru</authorUrl>
+    <version>1.0.3</version>
+    <description><![CDATA[Плагин позволяет легко и быстро менять цены товаров jShoppin в админке.]]></description>
+    <files>
+        <filename plugin="jshoppingquickeditprice">jshoppingquickeditprice.php</filename>
+        <filename>index.html</filename>
+        <folder>js</folder>
+        <folder>css</folder>
+    </files>
+</extension>

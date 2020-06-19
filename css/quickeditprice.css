@@ -1,0 +1,10 @@
+.htmlQuickEditPrice{margin-top:5px}
+.htmlQuickEditPrice.active{position:absolute;top:0;background-color:#F0F0F0;height:100%;margin-top:0;padding:10px 6px;box-sizing:border-box}
+.quickEditPrice-form{display:none}
+.htmlQuickEditPrice.active .quickEditPrice-form{display:block}
+.quickEditPrice-form small{display:block;width:100%;margin-bottom:2px}
+.quickEditPrice-form > div{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex}
+.quickEditPrice-form input[name="quickEditPrice"]{width:85px}
+.btn.btn-quickEditPriceSubmit{margin-left:5px;height:28px;padding:4px 8px;line-height:12px}
+.htmlQuickEditPrice.active .btn-quickEditPrice{display:none}
+.htmlQuickEditPrice.success{background-color:#baea9f}
